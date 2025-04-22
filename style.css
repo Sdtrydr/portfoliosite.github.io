@@ -1,12 +1,12 @@
-.desktop-1,
-.desktop-1 * {
+.home,
+.home * {
   box-sizing: border-box;
 }
-.desktop-1 {
+.home {
   background: #17182d;
   display: flex;
   flex-direction: column;
-  gap: 137px;
+  gap: 496px;
   align-items: center;
   justify-content: flex-start;
   height: 1314px;
@@ -14,175 +14,181 @@
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   overflow: hidden;
 }
-.nav-bar {
+.hero {
+  flex-shrink: 0;
+  width: 700px;
+  height: 160.85px;
+  position: static;
+}
+.this-website-is-wip-you-can-see-my-current-portfolio-on-my-carrd {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: calc(50% - 393px);
+  width: 700px;
+  height: 94px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.group-5 {
+  width: 197.6px;
+  height: 51.85px;
+  position: static;
+}
+.rectangle-1 {
+  background: #184589;
+  border-radius: 20px;
+  width: 197.6px;
+  height: 51.85px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: calc(50% - 284px);
+  box-shadow: 0px 4px 4px 0px rgba(217, 147, 50, 1);
+}
+.carrd {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: calc(50% - 272px);
+  width: 130.33px;
+  height: 28.73px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.group-9 {
+  flex-shrink: 0;
+  width: 1212px;
+  height: 470px;
+  position: static;
+}
+.image-8 {
+  width: 84.17%;
+  height: 470px;
+  position: absolute;
+  right: 7.92%;
+  left: 7.92%;
+  top: 601px;
+  filter: blur(100px);
+  object-fit: cover;
+}
+.image-82 {
+  width: 84.17%;
+  height: 470px;
+  position: absolute;
+  right: 7.92%;
+  left: 7.92%;
+  top: calc(50% - 56px);
+  object-fit: cover;
+}
+.rectangle-12 {
+  background: linear-gradient(
+    90deg,
+    rgba(205, 140, 50, 1) 0%,
+    rgba(103, 70, 25, 1) 100%
+  );
+  flex-shrink: 0;
+  width: 100%;
+  height: 17px;
+  position: absolute;
+  right: -100%;
+  left: 100%;
+  bottom: 0px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(-1, 1);
+}
+.header-contents-desktop {
   background: #181626;
-  padding: 38px 40px 38px 40px;
+  padding: 32px 26px 32px 26px;
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  row-gap: 25px;
+  align-items: center;
   justify-content: space-between;
-  align-self: stretch;
+  flex-wrap: wrap;
+  align-content: center;
   flex-shrink: 0;
-  position: relative;
-  box-shadow: 0px 5px 2px 0px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  top: 0px;
+  box-shadow: 0px 5px 2px 0px rgba(167, 116, 45, 1);
 }
 .sir-strider {
   color: #ffffff;
   text-align: left;
-  font-family: "Roboto-Bold", sans-serif;
-  font-size: 25px;
+  font-family: "RobotoMono-Bold", sans-serif;
+  font-size: 35px;
   font-weight: 700;
   position: relative;
 }
-.menus {
-  padding: 0px 40px 0px 40px;
-  flex: 1;
-  height: 23px;
-  max-width: 400px;
-  position: relative;
-}
-.about {
-  color: #ffffff;
-  text-align: left;
-  font-family: "Roboto-Regular", sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  text-decoration: underline;
-  position: absolute;
-  left: -39px;
-  top: 0px;
-}
-.past-work {
-  color: #ffffff;
-  text-align: left;
-  font-family: "Roboto-Regular", sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  text-decoration: underline;
-  position: absolute;
-  left: 85px;
-  top: 0px;
-}
-.pricing {
-  color: #ffffff;
-  text-align: left;
-  font-family: "Roboto-Regular", sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  text-decoration: underline;
-  position: absolute;
-  left: 246px;
-  top: 0px;
-}
-.featured-showcase {
-  color: #ffffff;
-  text-align: center;
-  font-family: "Roboto-Regular", sans-serif;
-  font-size: 40px;
-  font-weight: 400;
-  position: relative;
-  align-self: stretch;
-}
-.main-showcase {
+.frame-7 {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  align-items: center;
+  justify-content: flex-end;
   flex-shrink: 0;
-  width: 1025px;
-  height: 350px;
-  position: static;
+  width: 532px;
+  height: 48px;
+  position: relative;
+  aspect-ratio: 532/48;
 }
-.item-title {
-  color: #ffffff;
-  text-align: left;
-  font-family: var(--item-title-font-family, "Roboto-Regular", sans-serif);
-  font-size: var(--item-title-font-size, 48px);
-  font-weight: var(--item-title-font-weight, 400);
-  position: absolute;
-  left: 208.5px;
-  top: 426px;
-  width: 360px;
-}
-.item-description {
-  color: #ffffff;
-  text-align: left;
-  font-family: "Roboto-Regular", sans-serif;
-  font-size: 24px;
-  font-weight: 400;
-  position: absolute;
-  left: 208.5px;
-  top: 492px;
-  width: 360px;
-  height: 284px;
-}
-.the-den-2 {
-  width: 550px;
-  height: 350px;
-  position: absolute;
-  left: 683.5px;
-  top: 426px;
-  filter: blur(25px);
-  object-fit: cover;
-  aspect-ratio: 550/350;
-}
-.the-den-1 {
-  width: 550px;
-  height: 350px;
-  position: absolute;
-  left: 683.5px;
-  top: 426px;
-  object-fit: cover;
-  aspect-ratio: 550/350;
-}
-.about-me {
+.group-8 {
   flex-shrink: 0;
-  width: 836px;
-  height: 163px;
-  position: static;
+  width: 144px;
+  height: 48px;
+  position: relative;
 }
 .rectangle-2 {
-  background: #383752;
-  border-radius: 20px;
-  width: 836px;
-  height: 163px;
+  background: #184589;
+  width: 100%;
+  height: 100%;
   position: absolute;
-  left: 303px;
-  top: 913px;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
 }
-.bro-it-s-me {
+.button {
   color: #ffffff;
-  text-align: left;
+  text-align: center;
   font-family: "Roboto-Bold", sans-serif;
-  font-size: 40px;
+  font-size: 24px;
   font-weight: 700;
   position: absolute;
-  left: 588px;
-  top: 937px;
-  width: 550px;
+  right: 9.03%;
+  left: 9.03%;
+  width: 81.94%;
+  bottom: 25%;
+  top: 25%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.bro-thinks-he-s-website {
-  color: #ffffff;
-  text-align: left;
-  font-family: "Roboto-Regular", sans-serif;
-  font-size: 36px;
-  font-weight: 400;
-  position: absolute;
-  left: 589px;
-  top: 1010px;
-  width: 550px;
+.group-7 {
+  flex-shrink: 0;
+  width: 144px;
+  height: 48px;
+  position: relative;
 }
-.collins {
-  width: 170px;
-  height: 163px;
-  position: absolute;
-  left: 303px;
-  top: 913px;
-  overflow: visible;
-  object-fit: cover;
-}
-.collins2 {
-  width: 170px;
-  height: 163px;
-  position: absolute;
-  left: 303px;
-  top: 913px;
-  overflow: visible;
-  object-fit: cover;
+.button-1 {
+  flex-shrink: 0;
+  width: 144px;
+  height: 48px;
+  position: relative;
 }
